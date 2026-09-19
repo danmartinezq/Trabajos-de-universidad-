@@ -80,6 +80,8 @@ int main() {
         //si quiere salir
         case 5:
             cout<<"saliendo..."<<endl;
+        default:
+            cout<<"Error intente nuevamente..."<<endl;
         }
 
 
