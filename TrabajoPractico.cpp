@@ -9,8 +9,7 @@ int main() {
 	int promedio;//Para guardar nuestro calculo de promedio
 	int opcion;
 	do{
-		/*Mostraremos un menu interactivo 
-		(intente de otra manera pero no me salio como pensaba (me perdi), tuve que recurrir a este camino)*/
+		/*Mostraremos un menu interactivo*/
 		cout<<"____MENU____"<<endl;
 		cout<<"1.Calculadora de promedio"<<endl;
 		cout<<"2.Salir de la calculadora."<<endl;
@@ -44,4 +43,4 @@ int main() {
 		//Si pulsa otra opccion que no sea la correcta
 	}while(opcion != 2);
 	return 0;
-}//sin mas comentarios
+} 
