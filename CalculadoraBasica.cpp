@@ -81,9 +81,7 @@ int main() {
         case 5:
             cout<<"saliendo..."<<endl;
         default:
-            if (opcion!=5) {
-                cout<<"Error intente nuevamente..."<<endl;
-                }
+            cout<<"error intente nuevamente"<<endl;
         }
 
 
