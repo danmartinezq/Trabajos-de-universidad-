@@ -1,28 +1,11 @@
+# Ignorar todo por defecto (binarios compilados, .db, temporales)
 *
+
+# Permitir carpetas y archivos fuente/documentación
 !*/
 !*.cpp
 !*.h
 !*.hpp
+!*.sql
 !*.md
 !.gitignore
-
-*.db
-*.sqlite
-*.sqlite3
-*.db-journal
-*.db-wal
-*.db-shm
-*.out
-*.exe
-*.o
-*.obj
-*a.out
-
-
-*.swp
-*.swo
-*~
-.DS_Store
-EOF
-
-!*.sql
